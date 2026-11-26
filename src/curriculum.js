@@ -1,0 +1,98 @@
+export const curriculum = [
+  {
+    title: "프로그램은 어떻게 실행되는가",
+    days: [
+      "CPU와 RAM은 각각 무엇을 하는가",
+      "CPU instruction과 machine code",
+      "소스코드 → 실행 코드",
+      "Compiler / Interpreter / Runtime",
+      "프로그램을 실행하면 OS에서 생기는 일",
+      "CPU register와 instruction execution",
+      "전체 복습 + “앱 실행” 추적",
+    ],
+  },
+  {
+    title: "Memory / Stack / Heap",
+    days: [
+      "프로세스의 메모리 구조",
+      "Stack이란 무엇인가",
+      "Stack Frame과 함수 호출",
+      "Heap이 필요한 이유",
+      "Pointer와 Reference",
+      "Garbage Collection과 Memory Leak",
+      "JS 객체 하나가 메모리에서 어떻게 존재하는가",
+    ],
+  },
+  {
+    title: "Process / Thread",
+    days: [
+      "Process란 무엇인가",
+      "Thread란 무엇인가",
+      "Process vs Thread",
+      "OS Scheduler",
+      "Context Switching",
+      "Multi-core CPU와 Parallelism",
+      "React Native의 JS Thread / Main Thread와 연결",
+    ],
+  },
+  {
+    title: "Kernel",
+    days: [
+      "Kernel과 User Space",
+      "System Call",
+      "File Descriptor",
+      "파일을 읽는다는 것은 실제로 무슨 뜻인가",
+      "프로그램 권한과 Process Isolation",
+      "Interrupt",
+      "Node.js fs.readFile()이 OS까지 내려가는 과정",
+    ],
+  },
+  {
+    title: "Virtual Memory",
+    days: [
+      "Physical vs Virtual Memory",
+      "Virtual Address",
+      "Page와 Page Table",
+      "MMU",
+      "Page Fault",
+      "Swap / Memory Pressure",
+      "앱의 메모리 사용량을 OS 관점에서 분석",
+    ],
+  },
+  {
+    title: "I/O / Network",
+    days: [
+      "I/O란 무엇인가",
+      "Blocking I/O",
+      "Non-blocking I/O",
+      "Socket",
+      "TCP connection",
+      "HTTP request가 OS를 거치는 과정",
+      "Node.js network request 전체 흐름",
+    ],
+  },
+  {
+    title: "Concurrency",
+    days: [
+      "Concurrency vs Parallelism",
+      "Race Condition",
+      "Mutex / Lock",
+      "Semaphore",
+      "Deadlock",
+      "Event Loop",
+      "Node.js Event Loop + Thread Pool",
+    ],
+  },
+  {
+    title: "실제 개발과 연결",
+    days: [
+      "JavaScript Runtime 구조",
+      "Node.js 내부 구조",
+      "React Native 내부 구조",
+      "React Native Rendering / Main Thread",
+      "Flutter Engine / Dart Runtime",
+      "앱 성능 문제를 OS 관점에서 분석하는 방법",
+      "전체 시스템 구조 연결",
+    ],
+  },
+];

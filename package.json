@@ -1,0 +1,12 @@
+{
+  "name": "interactive-computer-science-textbook",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/site.mjs serve",
+    "check": "node --check src/main.js && node scripts/check.mjs",
+    "build": "node scripts/site.mjs build",
+    "preview": "node scripts/site.mjs preview"
+  }
+}
